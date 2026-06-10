@@ -1,0 +1,13 @@
+@import "tailwindcss" source("../");
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Syne:wght@400;500;600;700;800&display=swap');
+
+body {
+  @apply m-0;
+  font-family: 'Syne', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-mono {
+  font-family: 'DM Mono', 'Fira Code', monospace;
+}
